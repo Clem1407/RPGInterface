@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="Introduction" alignment="CENTER" prefHeight="507.0" prefWidth="648.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rpginterface.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Text fx:id="Titre1" strokeType="OUTSIDE" strokeWidth="0.0" text="Etes-vous prêt à entrer dans un nouvel univers... ?" textAlignment="CENTER">
+      <font>
+         <Font name="Century Gothic" size="23.0" />
+      </font>
+   </Text>
+    <Button fx:id="Continuez" onAction="#onContinuezClick" text="Continuez">
+      <font>
+         <Font name="Century Gothic" size="25.0" />
+      </font></Button>
+</VBox>
